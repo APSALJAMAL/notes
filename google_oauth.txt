@@ -1,0 +1,24 @@
+npx create-next-app@latest   
+
+npm install next-auth@beta  
+
+npm install @prisma/client @auth/prisma-adapter
+npm install prisma --save-dev
+
+npx shadcn@latest add dropdown-menu avatar navigation-menu button
+
+npm i react-icons 
+
+npx prisma init
+npx prisma generate
+npx prisma db push
+
+.env
+DATABASE_URL=
+
+AUTH_SECRET="tr/qbmgxZG6kNZYO+cbeYTvWwg/KXMONtrbaBIQPfQc="
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+
